@@ -1,0 +1,36 @@
+:root {
+   --font-sans: "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+h1 {
+   color: var(--lightest-slate);
+   margin-block-start: 0.83em;
+   margin-block-end: 0.83em;
+}
+h2 {
+   color: var(--slate);
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   background: linear-gradient(
+         90.75deg,
+         rgb(255, 215, 112) 8.81%,
+         rgb(255, 112, 172) 29.16%,
+         rgb(235, 112, 255) 49.51%,
+         rgb(158, 112, 255) 69.86%,
+         rgb(112, 184, 255) 90.2%
+      );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-top: 5px;
+}
+
+h1,
+h2 {
+   font-size: clamp(40px, 8vw, 80px);
+   font-weight: 600;
+   margin-inline-start: 0;
+   margin-inline-end: 0;
+   margin: 0;
+}

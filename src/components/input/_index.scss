@@ -1,0 +1,26 @@
+.input {
+   height: 48px;
+   width: 320px;
+   padding: 11px 12px 12px 46px;
+   background: rgb(7, 7, 13);
+   color: rgb(255, 255, 255);
+   border: 1.2px solid rgb(38, 38, 44);
+   border-radius: 8px;
+   outline: none;
+
+   &:hover {
+      border-color: rgb(20, 20, 26);
+      background: rgb(20, 20, 26);
+      color: rgb(156, 156, 171);
+   }
+
+   &:focus,
+   :active {
+      color: rgb(255, 255, 255);
+      border-color: rgb(75, 75, 88);
+   }
+
+   &:focus-visible {
+    outline: none;
+   }
+}
